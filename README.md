@@ -2,8 +2,6 @@
 TL;DR let's get rude, say that all existing publicly available surveillance solutions are garbage and make a new lightweight and simple one. Core idea is to get a bunch of cheap RTSP+PoE cameras that encode directly into h264, and just store their already encoded stream as-is without any transcoding. That is essentially just a memcpy from network to disk, so something really cheap and weak can be used as video server for multiple full HD cameras, e.g. Raspberry Pi.
 
 
-  ![Example](https://github.com/realjax/supportFiles/raw/master/images/example.png)(huh)
-
 
 Using ultra-future technology, that surely hasn't been around for a decade, like HTML5 and `<video>` tag, we can dump camera stream into format that any modern browser can understand and play from a simple static html file.
 
